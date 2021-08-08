@@ -1,0 +1,23 @@
+
+
+
+<div class="mx-auto mt-2 alert alert-primary border border-primary " style="width: 80%;" role="alert" *ngFor="let test of tests">
+   <div class="d-inline">
+    {{test.title}}
+    <button type="button"  class="btn btn-primary d-flex justify-content-end" text = 'center' (click)="test.isDescription = true">Пуск</button>
+   <div *ngIf="test.isDescription">
+        <div class="mt-3 alert alert-secondary" role="alert" >
+            {{test.description}}
+        </div>
+        <div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck" (change)="test.isAgree = !test.isAgree">
+                <label class="form-check-label" for="exampleCheck1">Я згоден розпочати</label>
+              </div>
+              <button type="submit" class="btn btn-primary" *ngIf="test.isAgree" (click)="goToTest(test.id)">Продовжити</button>
+        </div>
+    </div>
+
+   </div>
+    
+  </div>

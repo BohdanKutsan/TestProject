@@ -1,0 +1,39 @@
+
+
+
+<div>
+  <nav class="navbar navbar-dark bg-dark ml - 3">
+    <div class="">
+      <a
+      class="navbar-brand"
+      routerLink=""
+      routerLinkActive="active-link"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >Головна</a
+    >
+    <a
+    class="navbar-brand"
+      routerLink="/tests"
+      routerLinkActive="active-link"
+      [routerLinkActiveOptions]="{ exact: true }"
+      *ngIf="isLoggedIn"
+      >Тести</a
+    >
+    </div>
+
+    
+    <div class="form-inline my-2 my-lg-2 p- 2">
+      <button class="btn btn-outline-success my-2 my-sm-0" (click)="registerPage()" *ngIf="!isLoggedIn">Реєстрація </button>
+      <button class= "btn btn-outline-warning my-2 my-sm-0" (click)="logout()" *ngIf="isLoggedIn" > Вийти </button>
+    </div>
+  </nav>
+  
+
+  
+
+  
+
+  
+
+  <router-outlet></router-outlet>
+</div>

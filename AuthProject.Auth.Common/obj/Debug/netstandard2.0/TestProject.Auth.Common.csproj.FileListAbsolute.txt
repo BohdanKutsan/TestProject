@@ -1,0 +1,9 @@
+C:\Users\K_Bog\source\repos\AuthProject\AuthProject.Auth.Common\bin\Debug\netstandard2.0\TestProject.Auth.Common.deps.json
+C:\Users\K_Bog\source\repos\AuthProject\AuthProject.Auth.Common\bin\Debug\netstandard2.0\TestProject.Auth.Common.dll
+C:\Users\K_Bog\source\repos\AuthProject\AuthProject.Auth.Common\bin\Debug\netstandard2.0\TestProject.Auth.Common.pdb
+C:\Users\K_Bog\source\repos\AuthProject\AuthProject.Auth.Common\obj\Debug\netstandard2.0\TestProject.Auth.Common.csprojAssemblyReference.cache
+C:\Users\K_Bog\source\repos\AuthProject\AuthProject.Auth.Common\obj\Debug\netstandard2.0\TestProject.Auth.Common.AssemblyInfoInputs.cache
+C:\Users\K_Bog\source\repos\AuthProject\AuthProject.Auth.Common\obj\Debug\netstandard2.0\TestProject.Auth.Common.AssemblyInfo.cs
+C:\Users\K_Bog\source\repos\AuthProject\AuthProject.Auth.Common\obj\Debug\netstandard2.0\TestProject.Auth.Common.csproj.CoreCompileInputs.cache
+C:\Users\K_Bog\source\repos\AuthProject\AuthProject.Auth.Common\obj\Debug\netstandard2.0\TestProject.Auth.Common.dll
+C:\Users\K_Bog\source\repos\AuthProject\AuthProject.Auth.Common\obj\Debug\netstandard2.0\TestProject.Auth.Common.pdb

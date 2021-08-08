@@ -1,0 +1,22 @@
+
+
+<div class="card" *ngIf = "!isFinish">
+    <div class="card-header">
+      {{test.title}}
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">{{test.questions[numberQuestion].text}}</h5>
+      <div class="form-check form-check-inline" *ngFor="let answer of test.questions[numberQuestion].answer">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" (change)="isAnswerTrue(answer.isTrue)">
+        <label class="form-check-label" for="inlineCheckbox1">{{answer.text}}</label>
+      </div>
+      <button type="submit" class="btn btn-primary" (click)="nextQuestion()">Далі</button>
+    </div>
+  </div>
+
+  <div *ngIf = "isFinish" class="mx-auto mt-2" style="width: 80%;">
+    <div class="alert alert-dark "  role="alert">
+        Ви відповіли на {{countAnswerIsTrue}} відповідей!
+    </div>
+    <button type="button" class="btn btn-warning"  (click)="goToTests()">Назад</button>
+  </div>
